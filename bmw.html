@@ -1,0 +1,76 @@
+    <style>
+.car-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.car-card{
+    background:#fff;
+    width:280px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+    text-align:center;
+    font-family:Arial;
+}
+
+.car-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.car-card h3{
+    margin:10px 0 5px;
+}
+
+.price{
+    color:green;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.whatsapp-btn{
+    display:inline-block;
+    margin:15px;
+    padding:10px 15px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+</style>
+
+<div class="car-container">
+    <div class="car-card">
+        <img src="IMG-BMW.jpg.avif" alt="BMW">
+        <h3>BMW S Series</h3>
+        <p class="price">$18,000</p>
+        <p>Fuel efficient, automatic, low mileage.</p>
+
+        <!-- WhatsApp Order Button -->
+        <a class="whatsapp-btn" 
+           href="https://wa.me/233505196360?text=Hello%20PG%20Autos,%20I%20want%20to%20order%20Toyota%20Corolla%202020%20priced%20at%20$12,000"
+           target="_blank">
+           Order via WhatsApp
+        </a>
+    </div>
+
+    <!-- CAR 2 -->
+    <div class="car-card">
+        <img src="img-bmwX5.jpg.jpg" alt="BMW">
+        <h3>BMW X5</h3>
+        <p class="price">$25,000</p>
+        <p>Luxury sedan, leather interior, smooth drive.</p>
+
+        <a class="whatsapp-btn" 
+           href="https://wa.me/233505196360?text=Hello%20PG%20Autos,%20I%20want%20to%20order%20Toyota%20Camry%202021%20priced%20at%20$18,500"
+           target="_blank">
+           Order via WhatsApp
+        </a>
+    </div>
+
+</div>
